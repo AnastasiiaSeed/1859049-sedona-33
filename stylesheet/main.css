@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -133,15 +135,42 @@ body {
 .card-foto {
   margin:0;
   padding: 0;
-  display:flex;
+  display: flex;
+  width: 1200px;
+  height: 384px;
   background: #83b3d3;
   color: #ffffff;
+}
+
+.advantages-item-blue {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-description {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 1200px;
+  height: 384px;
+  list-style-type: none;
+  text-align: center;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
 }
 
 .advantages-card {
   width: 400px;
   height: 384px;
   background: #83b3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .search {
